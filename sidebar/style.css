@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto&family=Vazirmatn:wght@100..900&display=swap');
+
+*::before,
+*::after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    font-family: 'Vazirmatn';
+    height: 710px;
+    width: 800px;
+    margin: 100px auto;
+    padding: 15px 15px;
+    border:1px solid #8a8787;
+    font-size: 22px;
+}
+.titr{
+    margin-bottom: 50px;
+    padding: 0 50px;
+    font-size: 38px;
+}
+.s{
+    color: #2e2c2c;
+    margin-bottom: 50px;
+    padding: 0 50px;
+    font-size: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.s:hover{
+    background-color: #a19898;
+}
