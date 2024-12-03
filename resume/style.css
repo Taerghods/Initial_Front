@@ -14,7 +14,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+    height: 1000px;
+    width: 1000px;
+    margin: 15px auto;
+    padding: 15px 15px;
+}
 .header{
   font-family: 'yekan';
   background: linear-gradient(90deg, hsla(46, 73%, 75%, 1) 0%, hsla(176, 73%, 88%, 1) 100%);
