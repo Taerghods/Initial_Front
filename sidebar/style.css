@@ -26,7 +26,7 @@
     padding: 0 50px;
     font-size: 30px;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
     justify-content: space-between;
 }
 .s:hover{

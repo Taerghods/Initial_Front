@@ -6,21 +6,21 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-body{
+.container{
     font-family: Roboto;
     text-align: center;
     height: 1000px;
     width: 1000px;
     margin: 100px auto;
     padding: 15px 15px;
-    border: solid #b8acac;
+    border:3px solid #b1acac;
+    background-color: rgba(238, 238, 241, 0.88);
 }
-.container{
+.main{
     height: 950px;
     width: 950px;
     margin: 0 auto;
-    background-color: rgba(241, 241, 219, 0.88);
+    background-color: white;
 }
 
 .header{
@@ -70,7 +70,7 @@ body{
 .favorite{
     height: 70px;
     display: flex;
-    flex-flow: row wrap;
+    flex-direction: row;
 }
 .like{
     border-radius: 50%;
