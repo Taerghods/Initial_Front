@@ -8,27 +8,30 @@
 }
 .container{
     font-family: 'Vazirmatn';
-    height: 710px;
+    height: 820px;
     width: 800px;
     margin: 100px auto;
     padding: 15px 15px;
     border:1px solid #8a8787;
-    font-size: 22px;
+    font-size: 25px;
 }
 .titr{
     margin-bottom: 50px;
-    padding: 0 50px;
-    font-size: 38px;
+    padding: 0 25px;
 }
 .s{
-    color: #2e2c2c;
+    color: #5a5454;
     margin-bottom: 50px;
     padding: 0 50px;
     font-size: 30px;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
 }
 .s:hover{
     background-color: #a19898;
+}
+
+a{
+    color: #1d1d1d;
+    text-decoration: none;
 }
